@@ -1,0 +1,25 @@
+{
+  "name": "express-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "hbs": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adiwon9555/Personal_Practice_Projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adiwon9555/Personal_Practice_Projects/issues"
+  },
+  "homepage": "https://github.com/adiwon9555/Personal_Practice_Projects#readme"
+}
