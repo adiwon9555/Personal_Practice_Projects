@@ -28,7 +28,9 @@ app.get('/',(req,res)=>{
     res.send("my localhost");
 })
 app.get('/hello',(req,res)=>{
-    res.send("yo man");
+    res.status(400).send({
+        name:"yo man"
+    });
 })
 
 app.get('/about',(req,res)=>{
@@ -42,3 +44,5 @@ app.get('/about',(req,res)=>{
 app.listen(port,()=>{
     console.log(`The server is running on port ${port}`);
 });
+
+module.exports.app=app;
